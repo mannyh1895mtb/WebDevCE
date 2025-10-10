@@ -2,21 +2,19 @@ body{
     font-family: "Lora",serif;
 }
 
-/*header stuff here*/
+
 header{
 
-background-color: #024873;
+background-color: #008000;
 padding: 1rem 10px;
 }
 
 header span{
-color: #2f3133;
+color: #800080;
     font-size: 1.6rem;
     font-weight: 700;
 }
 
-
-/*navagation stuff here*/
 
 nav{
     background-color:#F2b705;
@@ -40,7 +38,7 @@ nav a {
 }
 
 nav li.active a {
-    background-color:#024873 ;
+    background-color:#800080 ;
     color: #F2b705;
 }
 
@@ -49,17 +47,17 @@ nav li a:hover {
 
 }
 
-    /*main stuff here*/
+
     main{
        padding: 1rem 10px; 
     }
 
     main h1{
-        color: #b40412;
+        color: #800080;
     }
 
     main h2{
-        color: #024873;
+        color: #800080;
         margin-bottom: .2rem;
     }
     main p{
@@ -68,17 +66,17 @@ nav li a:hover {
     }
     main ol{
         padding: .5rem 30px;
-        background-color: #efefef;
+        background-color: #008000;
     }
 
     main dl dt{
-        color: #F20519;
+        color: #008000;
         font-weight: 700;
         margin-top: 1rem;
     }
 
     main dl dd{
-        color: #024873;
+        color: #008000;
         font-size: .9rem;
         margin-left: 20px;
     }
@@ -92,7 +90,7 @@ nav li a:hover {
     }
     main strong{
         font-weight: 700;
-        color: black;   
+        color: purple;   
     }
     main em{
         font-weight: 300;
@@ -113,16 +111,14 @@ nav li a:hover {
     }
 
 
-    /* footer stuff here */
     footer {
-        background-color: #eaeaea;
+        background-color: #008000;
         text-align: center;
         padding: 1rem 0;
         font-size: .8rem;
-        color: #333;
+        color: #000000;
     }
     footer p {
         margin: 0;
         letter-spacing: 3px;
     }
-
