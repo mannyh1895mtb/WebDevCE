@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="Get your next meal delivered by drone.">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;500&display=swap" rel="stylesheet">
+                                                            
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <meta charset="UTF-8">
+    <title>delivery</title>
+</head>
+<body>
+    
+    <header>
+        <img src="images/rims logo.webp" alt="logo for mannys rims page" width="86" height="57">
+        <span> spoke and wheel</span>
+    </header>
+    
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="production.html">Production</a></li>      
+            <li><a href="gallery.html">Rims</a></li>
+            <li class="active"><a href="delivery.html">Delivery</a></li>
+            <li><a href="activities.html">Pricelist</a></li>
+             <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    
+    <main>
+        <h1>Delivery Request</h1>
+        <form method="get" class="myForm" action="thanks.html">
+            <fieldset>
+            <legend>Customer Information</legend>    
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>last Name*<input type="text" name="lname" required></label>
+            <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Ways of Delivery</legend>
+                </label><input type="radio" name="method" value="train">train Delivery (2hrs)<label>
+                </label><input type="radio" name="method" value="Animal">Animal Delivery (4hrs)</label>
+                </label><input type="radio" name="method" value="bike">bike Delivery (6hrs)</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery locations</legend>
+                <label><input type="checkbox" name="porch" value="chosen"> Front Porch</label>
+                <label><input type="checkbox" name="deck" value="chosen"> Back Deck</label>
+                <label><input type="checkbox" name="Driveway" value="chosen"> Driveway</label>
+                <label><input type="checkbox" name="Inside the Garage" value="chosen"> Inside the Garage</label>
+
+                <label>Preferred Delivery Time
+                <select name="time">
+                    <option value="none">please Select</option>
+                    <option value="morning">Between 7:00am and 11:00am</option>
+                    <option value="noon">Between 11:00am and 2:00pm </option>
+                    <option value="afternoon">Between 2:00pm and 5:00pm </option>
+                    <option value="evening">Between 5:00pm and 8:00pm </option>
+                </select>
+                </label>
+            </fieldset>
+
+            <label>Comments
+                <textarea name="Comments"></textarea>
+            </label>
+
+
+
+            <input type="submit" value="Send Delivery Request">
+        </form>
+    </main>
+    
+   
+    <footer>
+        <p>&copy;202X &bull; Spoke and Wheel Delivery Services &bull; <a href="mailto:zen@gmail.com">Email Us</a> </p>
+    </footer>
+</body>
+</html>
